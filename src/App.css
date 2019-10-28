@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic; 
+  font-size: 20px;
+  
+} 
+.customDiv > span > a {
+  text-decoration: none;
+  float: right;
+  padding: 10px;
+  color: #222;
+  background-color:#2110aa;
+  font-size: inherit;  
+}
+.customDiv > div{
+  padding: 10px;
+  background: rgb(110, 104, 104);
+  font-size: inherit; 
+}
+
+.customDiv  a{
+  text-decoration: none;
+}
+.bannerClass{
+  text-align: justify;
+}
