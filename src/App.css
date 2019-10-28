@@ -9,13 +9,13 @@
   text-decoration: none;
   float: right;
   padding: 10px;
-  color: #222;
+  color: rgb(223, 209, 209);
   background-color:#2110aa;
   font-size: inherit;  
 }
 .customDiv > div{
   padding: 10px;
-  background: rgb(110, 104, 104);
+  background: rgb(197, 187, 187);
   font-size: inherit; 
 }
 
