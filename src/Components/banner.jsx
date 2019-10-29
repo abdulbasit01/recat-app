@@ -3,13 +3,15 @@ const style={
     backgroundColor:"#1212",
     textAlign:"justify",
     padding:"10px",
-    height:"100px",
+    height:"200px",
     overflow: "overlay",
-    border:"1px #1215 groove"
+    width:"49%",
+    border:"1px #1215 groove",
+    float:"right",
 }
 class bannerComp extends Component {
     state = { 
-        isContext:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        isContext:"We are the team of very passionate and enthusiast persons. We provide you different in door and out door services like photgraphers ,videographer, interior designer ,graphics designer "
      }
     ;
     render() { 
