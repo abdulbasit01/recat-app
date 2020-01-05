@@ -1,3 +1,9 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 20;
+}
 .App {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -25,4 +31,41 @@
 }
 .bannerClass{
   text-align: justify;
+}
+.checkBoxes{
+  display: none;
+}
+.selectBox{
+  display: block;
+
+}
+/* For IE10 */
+.selectBox::-ms-expand {
+  display: none;
+}
+input {
+  background: transparent;
+}
+.customDiv{
+  display: flex;
+
+}
+
+.customOption{
+  flex: 1;  
+}
+.checkboxes{
+  display: flex;  
+  flex:1;
+}
+.customNumber{
+  flex:3;
+}
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 22px;
+    background: #9591b4;
+    padding: 2px;
+    margin: 5px;
+  }
 }
