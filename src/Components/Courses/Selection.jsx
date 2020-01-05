@@ -1,5 +1,5 @@
 import React, { Component ,useState} from 'react';
-import {withRouter } from "react-router-dom"
+import {withRouter , NavLink} from "react-router-dom"
 function Selection (props){
     console.log(props)
     const courseName = props.match.params.coursename;
@@ -48,12 +48,13 @@ function Selection (props){
         <div>
             Welcome To The Course {courseName}
             {renderVideo()}
-            <ul >
+            <ul className='collapsible popout' >
                 {typeOfCourse[courseName].map(item => {
-                    return (<li key={item.title} ><a href="#" onClick={()=>{
+                    return (<li key={item.title} ><NavLink to="#" onClick={()=>{
                         uid(item.vid)
                         utit(item.title)
-                    }}>{item.title}</a></li>)
+                    }}
+                    >{item.title}</NavLink></li>)
                 })}   
             </ul>
         </div>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Course from "./courseStructure"
 import Selection from "./Selection"
+import "./selection.css"
 import {BrowserRouter,Route,Switch,Router} from "react-router-dom";
 function Home(props){
     

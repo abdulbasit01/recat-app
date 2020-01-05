@@ -4,7 +4,7 @@ class SelectionOfCourse extends Component {
     state = {  }
     render() { 
         return ( 
-            <React.Fragment>
+            <div className="selection">
                 <Link to='/maths'>
                     Maths
                 </Link>
@@ -17,7 +17,7 @@ class SelectionOfCourse extends Component {
                 <Link to='/cs'>
                     Computer Science
                 </Link>
-            </React.Fragment>
+            </div>
          );
     }
 }
